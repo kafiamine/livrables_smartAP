@@ -1,0 +1,58 @@
+2018-12-10 20:10:01,009 - AP configuration: <AP: 192.168.2.51, channel: 52, power: 20> , <AP: 192.168.2.68, channel: 40, power: 45>
+2018-12-10 20:10:01,010 - STA (client) configuration: default demand = 5
+
+2018-12-10 20:10:15,757 - System environnement [New STA]:
+2018-12-10 20:10:15,758 -  [STA MAC]: [(Mesure type, Mesure in mbps), ...] // Mesure type = -1 = Theoric value, Mesure type = 1 = reel value
+2018-12-10 20:10:15,759 -  [STA MAC]: ['192.168.2.51', '192.168.2.68'] //Number of ap and their order
+2018-12-10 20:10:15,760 -  [6c:88:14:f0:dc:14]: [(-1, 65), (-1, 117)] [Try to connect on AP 192.168.2.68]
+2018-12-10 20:10:15,761 - ClientConnectionAccept : Client 6c:88:14:f0:dc:14 connect on ap 192.168.2.68
+
+2018-12-10 20:10:28,577 - System environnement [New STA]:
+2018-12-10 20:10:28,578 -  [STA MAC]: [(Mesure type, Mesure in mbps), ...] // Mesure type = -1 = Theoric value, Mesure type = 1 = reel value
+2018-12-10 20:10:28,579 -  [STA MAC]: ['192.168.2.51', '192.168.2.68'] //Number of ap and their order
+2018-12-10 20:10:28,580 -  [6c:88:14:f0:dc:14]: [(-1, 15.721461538461538), (1, 21.07)] [Connected on AP 192.168.2.68]
+2018-12-10 20:10:28,581 -  [28:16:ad:fd:c1:bd]: [(-1, 52), (-1, 52)] [Try to connect on AP 192.168.2.68]
+2018-12-10 20:10:28,582 - ClientConnectionRefuse : Client 28:16:ad:fd:c1:bd refuse on ap 192.168.2.68 but accept on 192.168.2.51
+2018-12-10 20:10:28,749 - ClientConnect: Client 28:16:ad:fd:c1:bd has been connected on AP 192.168.2.51
+
+
+2018-12-10 20:10:39,987 - ClientConnectionRefuse : Client 00:1f:3b:13:76:49 refuse on ap 192.168.2.68 because there is not enough data to take decision
+2018-12-10 20:10:40,690 - System environnement [New STA]:
+2018-12-10 20:10:40,691 -  [STA MAC]: [(Mesure type, Mesure in mbps), ...] // Mesure type = -1 = Theoric value, Mesure type = 1 = reel value
+2018-12-10 20:10:40,692 -  [STA MAC]: ['192.168.2.51', '192.168.2.68'] //Number of ap and their order
+2018-12-10 20:10:40,693 -  [6c:88:14:f0:dc:14]: [(-1, 12.369379844961239), (1, 16.45)] [Connected on AP 192.168.2.68]
+2018-12-10 20:10:40,694 -  [28:16:ad:fd:c1:bd]: [(1, 9.96), (-1, 13.280000000000001)] [Connected on AP 192.168.2.51]
+2018-12-10 20:10:40,695 -  [00:1f:3b:13:76:49]: [(-1, 39), (-1, 52)] [Try to connect on AP 192.168.2.51]
+2018-12-10 20:10:40,697 - ClientConnectionRefuse : Client 00:1f:3b:13:76:49 refuse on ap 192.168.2.51 but accept on 192.168.2.68
+2018-12-10 20:10:42,907 - ClientConnect: Client 00:1f:3b:13:76:49 has been connected on AP 192.168.2.68
+
+2018-12-10 20:11:01,288 - ClientDicsonnect: Client 00:1f:3b:13:76:49 as been disconnected by AP 192.168.2.68
+2018-12-10 20:11:37,127 - ClientConnectionRefuse : Client 00:1f:3b:13:76:49 refuse on ap 192.168.2.68 because there is not enough data to take decision
+
+2018-12-10 20:11:37,537 - System environnement [New STA]:
+2018-12-10 20:11:37,538 -  [STA MAC]: [(Mesure type, Mesure in mbps), ...] // Mesure type = -1 = Theoric value, Mesure type = 1 = reel value
+2018-12-10 20:11:37,539 -  [STA MAC]: ['192.168.2.51', '192.168.2.68'] //Number of ap and their order
+2018-12-10 20:11:37,540 -  [6c:88:14:f0:dc:14]: [(-1, 0), (1, 29.89)] [Connected on AP 192.168.2.68]
+2018-12-10 20:11:37,541 -  [00:1f:3b:13:76:49]: [(-1, 15.457327586206896), (1, 16.45)] [Try to connect on AP 192.168.2.51]
+2018-12-10 20:11:37,542 -  [28:16:ad:fd:c1:bd]: [(1, 9.96), (-1, 0)] [Connected on AP 192.168.2.51]
+2018-12-10 20:11:37,544 - ClientConnectionRefuse : Client 00:1f:3b:13:76:49 refuse on ap 192.168.2.51 but accept on 192.168.2.68
+2018-12-10 20:11:39,804 - ClientConnect: Client 00:1f:3b:13:76:49 has been connected on AP 192.168.2.68
+2018-12-10 20:12:28,776 - ClientDicsonnect: Client 28:16:ad:fd:c1:bd as been disconnected by AP 192.168.2.51
+2018-12-10 20:12:28,797 - ClientDicsonnect: Client 00:1f:3b:13:76:49 as been disconnected by AP 192.168.2.68
+2018-12-10 20:12:42,945 - ClientConnectionRefuse : Client 00:1f:3b:13:76:49 refuse on ap 192.168.2.68 because there is not enough data to take decision
+
+2018-12-10 20:12:43,381 - System environnement [New STA]:
+2018-12-10 20:12:43,382 -  [STA MAC]: [(Mesure type, Mesure in mbps), ...] // Mesure type = -1 = Theoric value, Mesure type = 1 = reel value
+2018-12-10 20:12:43,383 -  [STA MAC]: ['192.168.2.51', '192.168.2.68'] //Number of ap and their order
+2018-12-10 20:12:43,384 -  [6c:88:14:f0:dc:14]: [(-1, 0), (1, 29.89)] [Connected on AP 192.168.2.68]
+2018-12-10 20:12:43,385 -  [00:1f:3b:13:76:49]: [(-1, 19.654137931034484), (1, 21.11)] [Try to connect on AP 192.168.2.51]
+2018-12-10 20:12:43,386 -  [28:16:ad:fd:c1:bd]: [(1, 9.96), (-1, 0)] [Expect]
+2018-12-10 20:12:43,387 - ClientConnectionAccept : Client 00:1f:3b:13:76:49 connect on ap 192.168.2.51
+
+2018-12-10 20:13:03,347 - System environnement [New STA]:
+2018-12-10 20:13:03,348 -  [STA MAC]: [(Mesure type, Mesure in mbps), ...] // Mesure type = -1 = Theoric value, Mesure type = 1 = reel value
+2018-12-10 20:13:03,349 -  [STA MAC]: ['192.168.2.51', '192.168.2.68'] //Number of ap and their order
+2018-12-10 20:13:03,350 -  [6c:88:14:f0:dc:14]: [(-1, 0), (1, 24.71)] [Connected on AP 192.168.2.68]
+2018-12-10 20:13:03,351 -  [28:16:ad:fd:c1:bd]: [(1, 9.96), (-1, 14.160000000000002)] [Try to connect on AP 192.168.2.68]
+2018-12-10 20:13:03,352 -  [00:1f:3b:13:76:49]: [(1, 21.11), (1, 21.11)] [Connected on AP 192.168.2.51]
+2018-12-10 20:13:03,354 - ClientConnectionAccept : Client 28:16:ad:fd:c1:bd connect on ap 192.168.2.68

@@ -1,0 +1,265 @@
+2018-12-10 19:25:50,711 - AP configuration: <AP: 192.168.2.51, channel: 52, power: 20> , <AP: 192.168.2.68, channel: 40, power: 45>
+2018-12-10 19:25:50,711 - STA (client) configuration: default demand = 10
+2018-12-10 19:26:26,388 - System environnement [New STA]:
+2018-12-10 19:26:26,389 -  [STA MAC]: [(Mesure type, Mesure in mbps), ...] // Mesure type = -1 = Theoric value, Mesure type = 1 = reel value
+2018-12-10 19:26:26,390 -  [STA MAC]: [['192.168.2.51', '192.168.2.68']] //Number of ap and their order
+2018-12-10 19:26:26,391 -  [6c:88:14:f0:dc:14]: [(-1, 65), (-1, 130)] [Try to connect on AP 192.168.2.68]
+2018-12-10 19:26:26,392 - ClientConnectionAccept : Client 6c:88:14:f0:dc:14 connect on ap 192.168.2.68
+
+2018-12-10 19:26:44,786 - System environnement [New STA]:
+2018-12-10 19:26:44,787 -  [STA MAC]: [(Mesure type, Mesure in mbps), ...] // Mesure type = -1 = Theoric value, Mesure type = 1 = reel value
+2018-12-10 19:26:44,788 -  [STA MAC]: [['192.168.2.51', '192.168.2.68']] //Number of ap and their order
+2018-12-10 19:26:44,789 -  [6c:88:14:f0:dc:14]: [(-1, 12.502), (1, 16.45)] [Connected on AP 192.168.2.68]
+2018-12-10 19:26:44,790 -  [28:16:ad:fd:c1:bd]: [(-1, 52), (-1, 52)] [Try to connect on AP 192.168.2.68]
+2018-12-10 19:26:44,791 - ClientConnectionRefuse : Client 28:16:ad:fd:c1:bd refuse on ap 192.168.2.68 but accept on 192.168.2.51
+2018-12-10 19:26:44,955 - ClientConnect: Client 28:16:ad:fd:c1:bd has been connected on AP 192.168.2.51
+
+2018-12-10 19:27:13,696 - System environnement [New STA]:
+2018-12-10 19:27:13,697 -  [STA MAC]: [(Mesure type, Mesure in mbps), ...] // Mesure type = -1 = Theoric value, Mesure type = 1 = reel value
+2018-12-10 19:27:13,698 -  [STA MAC]: [['192.168.2.51', '192.168.2.68']] //Number of ap and their order
+2018-12-10 19:27:13,699 -  [6c:88:14:f0:dc:14]: [(-1, 21.28530303030303), (1, 29.89)] [Connected on AP 192.168.2.68]
+2018-12-10 19:27:13,700 -  [28:16:ad:fd:c1:bd]: [(1, 16.45), (-1, 21.61453488372093)] [Connected on AP 192.168.2.51]
+2018-12-10 19:27:13,701 -  [00:1f:3b:13:76:49]: [(-1, 13), (-1, 26)] [Try to connect on AP 192.168.2.68]
+2018-12-10 19:27:13,703 - ClientConnectionRefuse : Client 00:1f:3b:13:76:49 refuse on ap 192.168.2.51 but accept on 192.168.2.68
+2018-12-10 19:27:15,904 - ClientConnect: Client 00:1f:3b:13:76:49 has been connected on AP 192.168.2.68
+
+2018-12-10 19:27:34,417 - System environnement [QOS] :
+2018-12-10 19:27:34,418 -  [STA MAC]: [(Mesure type, Mesure in mbps), ...] // Mesure type = -1 = Theoric value, Mesure type = 1 = reel value
+2018-12-10 19:27:34,419 -  [STA MAC]: [['192.168.2.51', '192.168.2.68']] //Number of ap and their order
+2018-12-10 19:27:34,420 -  [6c:88:14:f0:dc:14]: [(-1, 18.683170731707317), (1, 24.71)] [Connected on AP 192.168.2.68]
+2018-12-10 19:27:34,421 -  [28:16:ad:fd:c1:bd]: [(1, 24.71), (-1, 31.729886363636364)] [Connected on AP 192.168.2.51]
+2018-12-10 19:27:34,422 -  [00:1f:3b:13:76:49]: [(-1, 11.525862068965518), (1, 13.37)] [Connected on AP 192.168.2.68]
+2018-12-10 19:27:34,423 - ClientDisconnect : Client 00:1f:3b:13:76:49 (b'\x00\x1f;\x13vI') disconnected from ap 192.168.2.68 for QOS purposes. Client Expect on ap 192.168.2.51
+
+2018-12-10 19:27:34,875 - ClientConnect: Client 00:1f:3b:13:76:49 has been connected on AP 192.168.2.51
+2018-12-10 19:27:39,003 - System environnement [QOS] :
+2018-12-10 19:27:39,004 -  [STA MAC]: [(Mesure type, Mesure in mbps), ...] // Mesure type = -1 = Theoric value, Mesure type = 1 = reel value
+2018-12-10 19:27:39,005 -  [STA MAC]: [['192.168.2.51', '192.168.2.68']] //Number of ap and their order
+2018-12-10 19:27:39,006 -  [6c:88:14:f0:dc:14]: [(-1, 22.599756097560974), (1, 29.89)] [Connected on AP 192.168.2.68]
+2018-12-10 19:27:39,007 -  [28:16:ad:fd:c1:bd]: [(1, 24.71), (-1, 31.373370786516855)] [Connected on AP 192.168.2.51]
+2018-12-10 19:27:39,008 -  [00:1f:3b:13:76:49]: [(1, 13.37), (1, 13.37)] [Connected on AP 192.168.2.51]
+2018-12-10 19:27:39,009 - ClientDisconnect : Client 00:1f:3b:13:76:49 (b'\x00\x1f;\x13vI') disconnected from ap 192.168.2.51 for QOS purposes. Client Expect on ap 192.168.2.68
+
+2018-12-10 19:27:43,333 - ClientDicsonnect: Client 00:1f:3b:13:76:49 as been disconnected by AP 192.168.2.51
+2018-12-10 19:27:44,620 - System environnement [New STA]:
+2018-12-10 19:27:44,622 -  [STA MAC]: [(Mesure type, Mesure in mbps), ...] // Mesure type = -1 = Theoric value, Mesure type = 1 = reel value
+2018-12-10 19:27:44,623 -  [STA MAC]: [['192.168.2.51', '192.168.2.68']] //Number of ap and their order
+2018-12-10 19:27:44,624 -  [6c:88:14:f0:dc:14]: [(-1, 22.061666666666667), (1, 29.89)] [Connected on AP 192.168.2.68]
+2018-12-10 19:27:44,625 -  [28:16:ad:fd:c1:bd]: [(1, 29.89), (-1, 0)] [Connected on AP 192.168.2.51]
+2018-12-10 19:27:44,626 -  [00:1f:3b:13:76:49]: [(1, 13.37), (1, 13.37)] [Try to connect on AP 192.168.2.68]
+2018-12-10 19:27:44,628 - ClientConnectionRefuse : Client 00:1f:3b:13:76:49 refuse on ap 192.168.2.68 but accept on 192.168.2.51
+2018-12-10 19:27:46,206 - ClientConnect: Client 00:1f:3b:13:76:49 has been connected on AP 192.168.2.51
+
+2018-12-10 19:27:48,294 - System environnement [QOS] :
+2018-12-10 19:27:48,296 -  [STA MAC]: [(Mesure type, Mesure in mbps), ...] // Mesure type = -1 = Theoric value, Mesure type = 1 = reel value
+2018-12-10 19:27:48,297 -  [STA MAC]: [['192.168.2.51', '192.168.2.68']] //Number of ap and their order
+2018-12-10 19:27:48,297 -  [6c:88:14:f0:dc:14]: [(-1, 22.061666666666667), (1, 29.89)] [Connected on AP 192.168.2.68]
+2018-12-10 19:27:48,298 -  [28:16:ad:fd:c1:bd]: [(1, 24.71), (-1, 0)] [Connected on AP 192.168.2.51]
+2018-12-10 19:27:48,299 -  [00:1f:3b:13:76:49]: [(1, 13.37), (1, 13.37)] [Connected on AP 192.168.2.51]
+2018-12-10 19:27:48,300 - ClientDisconnect : Client 00:1f:3b:13:76:49 (b'\x00\x1f;\x13vI') disconnected from ap 192.168.2.51 for QOS purposes. Client Expect on ap 192.168.2.68
+
+2018-12-10 19:27:50,648 - ClientConnect: Client 00:1f:3b:13:76:49 has been connected on AP 192.168.2.68
+2018-12-10 19:28:09,166 - System environnement [QOS] :
+2018-12-10 19:28:09,167 -  [STA MAC]: [(Mesure type, Mesure in mbps), ...] // Mesure type = -1 = Theoric value, Mesure type = 1 = reel value
+2018-12-10 19:28:09,168 -  [STA MAC]: [['192.168.2.51', '192.168.2.68']] //Number of ap and their order
+2018-12-10 19:28:09,169 -  [6c:88:14:f0:dc:14]: [(-1, 0), (1, 29.89)] [Connected on AP 192.168.2.68]
+2018-12-10 19:28:09,170 -  [28:16:ad:fd:c1:bd]: [(1, 21.11), (-1, 28.312235294117645)] [Connected on AP 192.168.2.51]
+2018-12-10 19:28:09,171 -  [00:1f:3b:13:76:49]: [(1, 13.37), (1, 13.37)] [Connected on AP 192.168.2.68]
+2018-12-10 19:28:09,172 - ClientDisconnect : Client 00:1f:3b:13:76:49 (b'\x00\x1f;\x13vI') disconnected from ap 192.168.2.68 for QOS purposes. Client Expect on ap 192.168.2.51
+
+2018-12-10 19:28:09,592 - ClientConnect: Client 00:1f:3b:13:76:49 has been connected on AP 192.168.2.51
+2018-12-10 19:28:11,665 - System environnement [QOS] :
+2018-12-10 19:28:11,667 -  [STA MAC]: [(Mesure type, Mesure in mbps), ...] // Mesure type = -1 = Theoric value, Mesure type = 1 = reel value
+2018-12-10 19:28:11,668 -  [STA MAC]: [['192.168.2.51', '192.168.2.68']] //Number of ap and their order
+2018-12-10 19:28:11,668 -  [6c:88:14:f0:dc:14]: [(-1, 0), (1, 29.89)] [Connected on AP 192.168.2.68]
+2018-12-10 19:28:11,669 -  [28:16:ad:fd:c1:bd]: [(1, 21.11), (-1, 28.312235294117645)] [Connected on AP 192.168.2.51]
+2018-12-10 19:28:11,670 -  [00:1f:3b:13:76:49]: [(1, 13.37), (1, 13.37)] [Connected on AP 192.168.2.51]
+2018-12-10 19:28:11,671 - ClientDisconnect : Client 00:1f:3b:13:76:49 (b'\x00\x1f;\x13vI') disconnected from ap 192.168.2.51 for QOS purposes. Client Expect on ap 192.168.2.68
+
+2018-12-10 19:28:14,023 - ClientConnect: Client 00:1f:3b:13:76:49 has been connected on AP 192.168.2.68
+2018-12-10 19:30:13,135 - System environnement [QOS] :
+2018-12-10 19:30:13,137 -  [STA MAC]: [(Mesure type, Mesure in mbps), ...] // Mesure type = -1 = Theoric value, Mesure type = 1 = reel value
+2018-12-10 19:30:13,137 -  [STA MAC]: [['192.168.2.51', '192.168.2.68']] //Number of ap and their order
+2018-12-10 19:30:13,138 -  [6c:88:14:f0:dc:14]: [(-1, 16.897279411764707), (1, 24.71)] [Connected on AP 192.168.2.68]
+2018-12-10 19:30:13,139 -  [28:16:ad:fd:c1:bd]: [(1, 29.89), (-1, 0)] [Connected on AP 192.168.2.51]
+2018-12-10 19:30:13,140 -  [00:1f:3b:13:76:49]: [(1, 13.37), (1, 13.37)] [Connected on AP 192.168.2.68]
+2018-12-10 19:30:13,141 - ClientDisconnect : Client 00:1f:3b:13:76:49 (b'\x00\x1f;\x13vI') disconnected from ap 192.168.2.68 for QOS purposes. Client Expect on ap 192.168.2.51
+
+2018-12-10 19:30:13,843 - ClientConnect: Client 00:1f:3b:13:76:49 has been connected on AP 192.168.2.51
+2018-12-10 19:30:17,970 - System environnement [QOS] :
+2018-12-10 19:30:17,972 -  [STA MAC]: [(Mesure type, Mesure in mbps), ...] // Mesure type = -1 = Theoric value, Mesure type = 1 = reel value
+2018-12-10 19:30:17,972 -  [STA MAC]: [['192.168.2.51', '192.168.2.68']] //Number of ap and their order
+2018-12-10 19:30:17,973 -  [6c:88:14:f0:dc:14]: [(-1, 16.897279411764707), (1, 24.71)] [Connected on AP 192.168.2.68]
+2018-12-10 19:30:17,974 -  [28:16:ad:fd:c1:bd]: [(1, 21.11), (-1, 27.983023255813954)] [Connected on AP 192.168.2.51]
+2018-12-10 19:30:17,975 -  [00:1f:3b:13:76:49]: [(1, 13.37), (1, 13.37)] [Connected on AP 192.168.2.51]
+2018-12-10 19:30:17,976 - ClientDisconnect : Client 00:1f:3b:13:76:49 (b'\x00\x1f;\x13vI') disconnected from ap 192.168.2.51 for QOS purposes. Client Expect on ap 192.168.2.68
+
+2018-12-10 19:30:20,045 - System environnement [QOS] :
+2018-12-10 19:30:20,046 -  [STA MAC]: [(Mesure type, Mesure in mbps), ...] // Mesure type = -1 = Theoric value, Mesure type = 1 = reel value
+2018-12-10 19:30:20,047 -  [STA MAC]: [['192.168.2.51', '192.168.2.68']] //Number of ap and their order
+2018-12-10 19:30:20,048 -  [6c:88:14:f0:dc:14]: [(-1, 16.897279411764707), (1, 24.71)] [Connected on AP 192.168.2.68]
+2018-12-10 19:30:20,049 -  [28:16:ad:fd:c1:bd]: [(1, 24.71), (-1, 32.010681818181816)] [Connected on AP 192.168.2.51]
+2018-12-10 19:30:20,050 -  [00:1f:3b:13:76:49]: [(1, 13.37), (1, 13.37)] [Connected on AP 192.168.2.51]
+2018-12-10 19:30:20,051 - ClientDisconnect : Client 00:1f:3b:13:76:49 (b'\x00\x1f;\x13vI') disconnected from ap 192.168.2.68 for QOS purposes. Client Expect on ap 192.168.2.51
+
+2018-12-10 19:30:21,588 - ClientConnect: Client 00:1f:3b:13:76:49 has been connected on AP 192.168.2.51
+2018-12-10 19:30:46,270 - System environnement [QOS] :
+2018-12-10 19:30:46,271 -  [STA MAC]: [(Mesure type, Mesure in mbps), ...] // Mesure type = -1 = Theoric value, Mesure type = 1 = reel value
+2018-12-10 19:30:46,272 -  [STA MAC]: [['192.168.2.51', '192.168.2.68']] //Number of ap and their order
+2018-12-10 19:30:46,273 -  [6c:88:14:f0:dc:14]: [(-1, 0), (1, 24.71)] [Connected on AP 192.168.2.68]
+2018-12-10 19:30:46,274 -  [28:16:ad:fd:c1:bd]: [(1, 21.11), (-1, 27.983023255813954)] [Connected on AP 192.168.2.51]
+2018-12-10 19:30:46,275 -  [00:1f:3b:13:76:49]: [(1, 13.37), (1, 13.37)] [Connected on AP 192.168.2.51]
+2018-12-10 19:30:46,276 - ClientDisconnect : Client 00:1f:3b:13:76:49 (b'\x00\x1f;\x13vI') disconnected from ap 192.168.2.51 for QOS purposes. Client Expect on ap 192.168.2.68
+
+2018-12-10 19:30:48,595 - ClientConnect: Client 00:1f:3b:13:76:49 has been connected on AP 192.168.2.68
+2018-12-10 19:30:56,845 - System environnement [QOS] :
+2018-12-10 19:30:56,846 -  [STA MAC]: [(Mesure type, Mesure in mbps), ...] // Mesure type = -1 = Theoric value, Mesure type = 1 = reel value
+2018-12-10 19:30:56,847 -  [STA MAC]: [['192.168.2.51', '192.168.2.68']] //Number of ap and their order
+2018-12-10 19:30:56,848 -  [6c:88:14:f0:dc:14]: [(-1, 0), (1, 24.71)] [Connected on AP 192.168.2.68]
+2018-12-10 19:30:56,849 -  [28:16:ad:fd:c1:bd]: [(1, 24.71), (-1, 0)] [Connected on AP 192.168.2.51]
+2018-12-10 19:30:56,850 -  [00:1f:3b:13:76:49]: [(1, 13.37), (1, 13.37)] [Connected on AP 192.168.2.68]
+2018-12-10 19:30:56,851 - ClientDisconnect : Client 00:1f:3b:13:76:49 (b'\x00\x1f;\x13vI') disconnected from ap 192.168.2.68 for QOS purposes. Client Expect on ap 192.168.2.51
+
+2018-12-10 19:30:57,222 - ClientConnect: Client 00:1f:3b:13:76:49 has been connected on AP 192.168.2.51
+2018-12-10 19:30:59,301 - System environnement [QOS] :
+2018-12-10 19:30:59,302 -  [STA MAC]: [(Mesure type, Mesure in mbps), ...] // Mesure type = -1 = Theoric value, Mesure type = 1 = reel value
+2018-12-10 19:30:59,303 -  [STA MAC]: [['192.168.2.51', '192.168.2.68']] //Number of ap and their order
+2018-12-10 19:30:59,304 -  [6c:88:14:f0:dc:14]: [(-1, 0), (1, 29.89)] [Connected on AP 192.168.2.68]
+2018-12-10 19:30:59,305 -  [28:16:ad:fd:c1:bd]: [(1, 24.71), (-1, 0)] [Connected on AP 192.168.2.51]
+2018-12-10 19:30:59,306 -  [00:1f:3b:13:76:49]: [(1, 13.37), (1, 13.37)] [Connected on AP 192.168.2.51]
+2018-12-10 19:30:59,307 - ClientDisconnect : Client 00:1f:3b:13:76:49 (b'\x00\x1f;\x13vI') disconnected from ap 192.168.2.51 for QOS purposes. Client Expect on ap 192.168.2.68
+
+2018-12-10 19:31:01,629 - ClientConnect: Client 00:1f:3b:13:76:49 has been connected on AP 192.168.2.68
+2018-12-10 19:31:03,715 - System environnement [QOS] :
+2018-12-10 19:31:03,716 -  [STA MAC]: [(Mesure type, Mesure in mbps), ...] // Mesure type = -1 = Theoric value, Mesure type = 1 = reel value
+2018-12-10 19:31:03,717 -  [STA MAC]: [['192.168.2.51', '192.168.2.68']] //Number of ap and their order
+2018-12-10 19:31:03,718 -  [6c:88:14:f0:dc:14]: [(-1, 0), (1, 24.71)] [Connected on AP 192.168.2.68]
+2018-12-10 19:31:03,719 -  [28:16:ad:fd:c1:bd]: [(1, 29.89), (-1, 0)] [Connected on AP 192.168.2.51]
+2018-12-10 19:31:03,720 -  [00:1f:3b:13:76:49]: [(1, 13.37), (1, 13.37)] [Connected on AP 192.168.2.68]
+2018-12-10 19:31:03,721 - ClientDisconnect : Client 00:1f:3b:13:76:49 (b'\x00\x1f;\x13vI') disconnected from ap 192.168.2.68 for QOS purposes. Client Expect on ap 192.168.2.51
+
+2018-12-10 19:31:03,902 - ClientConnect: Client 00:1f:3b:13:76:49 has been connected on AP 192.168.2.51
+2018-12-10 19:31:28,572 - System environnement [QOS] :
+2018-12-10 19:31:28,573 -  [STA MAC]: [(Mesure type, Mesure in mbps), ...] // Mesure type = -1 = Theoric value, Mesure type = 1 = reel value
+2018-12-10 19:31:28,574 -  [STA MAC]: [['192.168.2.51', '192.168.2.68']] //Number of ap and their order
+2018-12-10 19:31:28,575 -  [6c:88:14:f0:dc:14]: [(-1, 0), (1, 29.89)] [Connected on AP 192.168.2.68]
+2018-12-10 19:31:28,576 -  [28:16:ad:fd:c1:bd]: [(1, 24.71), (-1, 0)] [Connected on AP 192.168.2.51]
+2018-12-10 19:31:28,577 -  [00:1f:3b:13:76:49]: [(1, 13.37), (1, 13.37)] [Connected on AP 192.168.2.51]
+2018-12-10 19:31:28,578 - ClientDisconnect : Client 00:1f:3b:13:76:49 (b'\x00\x1f;\x13vI') disconnected from ap 192.168.2.51 for QOS purposes. Client Expect on ap 192.168.2.68
+
+2018-12-10 19:31:30,943 - ClientConnect: Client 00:1f:3b:13:76:49 has been connected on AP 192.168.2.68
+2018-12-10 19:31:43,286 - System environnement [QOS] :
+2018-12-10 19:31:43,287 -  [STA MAC]: [(Mesure type, Mesure in mbps), ...] // Mesure type = -1 = Theoric value, Mesure type = 1 = reel value
+2018-12-10 19:31:43,288 -  [STA MAC]: [['192.168.2.51', '192.168.2.68']] //Number of ap and their order
+2018-12-10 19:31:43,289 -  [6c:88:14:f0:dc:14]: [(-1, 20.74455223880597), (1, 29.89)] [Connected on AP 192.168.2.68]
+2018-12-10 19:31:43,290 -  [28:16:ad:fd:c1:bd]: [(1, 24.71), (-1, 0)] [Connected on AP 192.168.2.51]
+2018-12-10 19:31:43,291 -  [00:1f:3b:13:76:49]: [(1, 13.37), (1, 13.37)] [Connected on AP 192.168.2.68]
+2018-12-10 19:31:43,292 - ClientDisconnect : Client 00:1f:3b:13:76:49 (b'\x00\x1f;\x13vI') disconnected from ap 192.168.2.68 for QOS purposes. Client Expect on ap 192.168.2.51
+
+2018-12-10 19:31:43,713 - ClientConnect: Client 00:1f:3b:13:76:49 has been connected on AP 192.168.2.51
+2018-12-10 19:31:45,786 - System environnement [QOS] :
+2018-12-10 19:31:45,787 -  [STA MAC]: [(Mesure type, Mesure in mbps), ...] // Mesure type = -1 = Theoric value, Mesure type = 1 = reel value
+2018-12-10 19:31:45,788 -  [STA MAC]: [['192.168.2.51', '192.168.2.68']] //Number of ap and their order
+2018-12-10 19:31:45,789 -  [6c:88:14:f0:dc:14]: [(-1, 20.590888888888887), (1, 29.89)] [Connected on AP 192.168.2.68]
+2018-12-10 19:31:45,790 -  [28:16:ad:fd:c1:bd]: [(1, 24.71), (-1, 0)] [Connected on AP 192.168.2.51]
+2018-12-10 19:31:45,791 -  [00:1f:3b:13:76:49]: [(1, 13.37), (1, 13.37)] [Connected on AP 192.168.2.51]
+2018-12-10 19:31:45,792 - ClientDisconnect : Client 00:1f:3b:13:76:49 (b'\x00\x1f;\x13vI') disconnected from ap 192.168.2.51 for QOS purposes. Client Expect on ap 192.168.2.68
+
+2018-12-10 19:31:48,086 - ClientConnect: Client 00:1f:3b:13:76:49 has been connected on AP 192.168.2.68
+2018-12-10 19:31:50,174 - System environnement [QOS] :
+2018-12-10 19:31:50,175 -  [STA MAC]: [(Mesure type, Mesure in mbps), ...] // Mesure type = -1 = Theoric value, Mesure type = 1 = reel value
+2018-12-10 19:31:50,176 -  [STA MAC]: [['192.168.2.51', '192.168.2.68']] //Number of ap and their order
+2018-12-10 19:31:50,177 -  [6c:88:14:f0:dc:14]: [(-1, 20.74455223880597), (1, 29.89)] [Connected on AP 192.168.2.68]
+2018-12-10 19:31:50,178 -  [28:16:ad:fd:c1:bd]: [(1, 29.89), (-1, 0)] [Connected on AP 192.168.2.51]
+2018-12-10 19:31:50,179 -  [00:1f:3b:13:76:49]: [(1, 13.37), (1, 13.37)] [Connected on AP 192.168.2.68]
+2018-12-10 19:31:50,180 - ClientDisconnect : Client 00:1f:3b:13:76:49 (b'\x00\x1f;\x13vI') disconnected from ap 192.168.2.68 for QOS purposes. Client Expect on ap 192.168.2.51
+
+2018-12-10 19:31:50,373 - ClientConnect: Client 00:1f:3b:13:76:49 has been connected on AP 192.168.2.51
+2018-12-10 19:31:52,444 - System environnement [QOS] :
+2018-12-10 19:31:52,446 -  [STA MAC]: [(Mesure type, Mesure in mbps), ...] // Mesure type = -1 = Theoric value, Mesure type = 1 = reel value
+2018-12-10 19:31:52,446 -  [STA MAC]: [['192.168.2.51', '192.168.2.68']] //Number of ap and their order
+2018-12-10 19:31:52,447 -  [6c:88:14:f0:dc:14]: [(-1, 20.74455223880597), (1, 29.89)] [Connected on AP 192.168.2.68]
+2018-12-10 19:31:52,448 -  [28:16:ad:fd:c1:bd]: [(1, 24.71), (-1, 0)] [Connected on AP 192.168.2.51]
+2018-12-10 19:31:52,449 -  [00:1f:3b:13:76:49]: [(1, 13.37), (1, 13.37)] [Connected on AP 192.168.2.51]
+2018-12-10 19:31:52,450 - ClientDisconnect : Client 00:1f:3b:13:76:49 (b'\x00\x1f;\x13vI') disconnected from ap 192.168.2.51 for QOS purposes. Client Expect on ap 192.168.2.68
+
+2018-12-10 19:31:56,938 - ClientDicsonnect: Client 00:1f:3b:13:76:49 as been disconnected by AP 192.168.2.51
+2018-12-10 19:31:59,835 - System environnement [New STA]:
+2018-12-10 19:31:59,837 -  [STA MAC]: [(Mesure type, Mesure in mbps), ...] // Mesure type = -1 = Theoric value, Mesure type = 1 = reel value
+2018-12-10 19:31:59,838 -  [STA MAC]: [['192.168.2.51', '192.168.2.68']] //Number of ap and their order
+2018-12-10 19:31:59,839 -  [6c:88:14:f0:dc:14]: [(-1, 20.74455223880597), (1, 29.89)] [Connected on AP 192.168.2.68]
+2018-12-10 19:31:59,840 -  [28:16:ad:fd:c1:bd]: [(1, 24.71), (-1, 0)] [Connected on AP 192.168.2.51]
+2018-12-10 19:31:59,840 -  [00:1f:3b:13:76:49]: [(1, 13.37), (1, 13.37)] [Try to connect on AP 192.168.2.68]
+2018-12-10 19:31:59,842 - ClientConnectionAccept : Client 00:1f:3b:13:76:49 connect on ap 192.168.2.68
+
+2018-12-10 19:32:03,955 - System environnement [QOS] :
+2018-12-10 19:32:03,960 -  [STA MAC]: [(Mesure type, Mesure in mbps), ...] // Mesure type = -1 = Theoric value, Mesure type = 1 = reel value
+2018-12-10 19:32:03,962 -  [STA MAC]: [['192.168.2.51', '192.168.2.68']] //Number of ap and their order
+2018-12-10 19:32:03,963 -  [6c:88:14:f0:dc:14]: [(-1, 20.900526315789474), (1, 29.89)] [Connected on AP 192.168.2.68]
+2018-12-10 19:32:03,964 -  [28:16:ad:fd:c1:bd]: [(1, 24.71), (-1, 34.23674698795181)] [Connected on AP 192.168.2.51]
+2018-12-10 19:32:03,965 -  [00:1f:3b:13:76:49]: [(1, 13.37), (1, 9.96)] [Connected on AP 192.168.2.68]
+2018-12-10 19:32:03,966 - ClientDisconnect : Client 00:1f:3b:13:76:49 (b'\x00\x1f;\x13vI') disconnected from ap 192.168.2.68 for QOS purposes. Client Expect on ap 192.168.2.51
+
+2018-12-10 19:32:04,665 - ClientConnect: Client 00:1f:3b:13:76:49 has been connected on AP 192.168.2.51
+2018-12-10 19:33:20,619 - System environnement [QOS] :
+2018-12-10 19:33:20,620 -  [STA MAC]: [(Mesure type, Mesure in mbps), ...] // Mesure type = -1 = Theoric value, Mesure type = 1 = reel value
+2018-12-10 19:33:20,621 -  [STA MAC]: [['192.168.2.51', '192.168.2.68']] //Number of ap and their order
+2018-12-10 19:33:20,622 -  [6c:88:14:f0:dc:14]: [(-1, 0), (1, 24.71)] [Connected on AP 192.168.2.68]
+2018-12-10 19:33:20,623 -  [28:16:ad:fd:c1:bd]: [(1, 21.07), (-1, 0)] [Connected on AP 192.168.2.51]
+2018-12-10 19:33:20,624 -  [00:1f:3b:13:76:49]: [(1, 16.36), (1, 9.96)] [Connected on AP 192.168.2.51]
+2018-12-10 19:33:20,625 - ClientDisconnect : Client 00:1f:3b:13:76:49 (b'\x00\x1f;\x13vI') disconnected from ap 192.168.2.51 for QOS purposes. Client Expect on ap 192.168.2.68
+
+2018-12-10 19:33:22,697 - System environnement [QOS] :
+2018-12-10 19:33:22,699 -  [STA MAC]: [(Mesure type, Mesure in mbps), ...] // Mesure type = -1 = Theoric value, Mesure type = 1 = reel value
+2018-12-10 19:33:22,700 -  [STA MAC]: [['192.168.2.51', '192.168.2.68']] //Number of ap and their order
+2018-12-10 19:33:22,701 -  [6c:88:14:f0:dc:14]: [(-1, 0), (1, 21.11)] [Connected on AP 192.168.2.68]
+2018-12-10 19:33:22,702 -  [28:16:ad:fd:c1:bd]: [(1, 16.45), (-1, 0)] [Connected on AP 192.168.2.51]
+2018-12-10 19:33:22,702 -  [00:1f:3b:13:76:49]: [(1, 16.36), (1, 9.96)] [Connected on AP 192.168.2.51]
+2018-12-10 19:33:22,703 - ClientDisconnect : Client 00:1f:3b:13:76:49 (b'\x00\x1f;\x13vI') disconnected from ap 192.168.2.68 for QOS purposes. Client Expect on ap 192.168.2.51
+
+2018-12-10 19:33:24,069 - ClientConnect: Client 00:1f:3b:13:76:49 has been connected on AP 192.168.2.51
+2018-12-10 19:33:26,155 - System environnement [QOS] :
+2018-12-10 19:33:26,160 -  [STA MAC]: [(Mesure type, Mesure in mbps), ...] // Mesure type = -1 = Theoric value, Mesure type = 1 = reel value
+2018-12-10 19:33:26,161 -  [STA MAC]: [['192.168.2.51', '192.168.2.68']] //Number of ap and their order
+2018-12-10 19:33:26,162 -  [6c:88:14:f0:dc:14]: [(-1, 0), (1, 21.11)] [Connected on AP 192.168.2.68]
+2018-12-10 19:33:26,163 -  [28:16:ad:fd:c1:bd]: [(1, 16.45), (-1, 0)] [Connected on AP 192.168.2.51]
+2018-12-10 19:33:26,164 -  [00:1f:3b:13:76:49]: [(1, 13.37), (1, 9.96)] [Connected on AP 192.168.2.51]
+2018-12-10 19:33:26,165 - ClientDisconnect : Client 00:1f:3b:13:76:49 (b'\x00\x1f;\x13vI') disconnected from ap 192.168.2.51 for QOS purposes. Client Expect on ap 192.168.2.68
+
+2018-12-10 19:33:28,462 - ClientConnect: Client 00:1f:3b:13:76:49 has been connected on AP 192.168.2.68
+2018-12-10 19:33:30,567 - System environnement [QOS] :
+2018-12-10 19:33:30,568 -  [STA MAC]: [(Mesure type, Mesure in mbps), ...] // Mesure type = -1 = Theoric value, Mesure type = 1 = reel value
+2018-12-10 19:33:30,569 -  [STA MAC]: [['192.168.2.51', '192.168.2.68']] //Number of ap and their order
+2018-12-10 19:33:30,570 -  [6c:88:14:f0:dc:14]: [(-1, 0), (1, 16.45)] [Connected on AP 192.168.2.68]
+2018-12-10 19:33:30,571 -  [28:16:ad:fd:c1:bd]: [(1, 16.45), (-1, 0)] [Connected on AP 192.168.2.51]
+2018-12-10 19:33:30,572 -  [00:1f:3b:13:76:49]: [(1, 13.37), (1, 13.37)] [Connected on AP 192.168.2.68]
+2018-12-10 19:33:30,573 - ClientDisconnect : Client 00:1f:3b:13:76:49 (b'\x00\x1f;\x13vI') disconnected from ap 192.168.2.68 for QOS purposes. Client Expect on ap 192.168.2.51
+
+2018-12-10 19:33:31,031 - ClientConnect: Client 00:1f:3b:13:76:49 has been connected on AP 192.168.2.51
+2018-12-10 19:33:35,160 - System environnement [QOS] :
+2018-12-10 19:33:35,162 -  [STA MAC]: [(Mesure type, Mesure in mbps), ...] // Mesure type = -1 = Theoric value, Mesure type = 1 = reel value
+2018-12-10 19:33:35,163 -  [STA MAC]: [['192.168.2.51', '192.168.2.68']] //Number of ap and their order
+2018-12-10 19:33:35,164 -  [6c:88:14:f0:dc:14]: [(-1, 0), (1, 21.07)] [Connected on AP 192.168.2.68]
+2018-12-10 19:33:35,164 -  [28:16:ad:fd:c1:bd]: [(1, 16.45), (-1, 0)] [Connected on AP 192.168.2.51]
+2018-12-10 19:33:35,166 -  [00:1f:3b:13:76:49]: [(1, 13.37), (1, 13.37)] [Connected on AP 192.168.2.51]
+2018-12-10 19:33:35,166 - ClientDisconnect : Client 00:1f:3b:13:76:49 (b'\x00\x1f;\x13vI') disconnected from ap 192.168.2.51 for QOS purposes. Client Expect on ap 192.168.2.68
+
+2018-12-10 19:33:37,455 - ClientConnect: Client 00:1f:3b:13:76:49 has been connected on AP 192.168.2.68
+2018-12-10 19:33:39,533 - System environnement [QOS] :
+2018-12-10 19:33:39,534 -  [STA MAC]: [(Mesure type, Mesure in mbps), ...] // Mesure type = -1 = Theoric value, Mesure type = 1 = reel value
+2018-12-10 19:33:39,535 -  [STA MAC]: [['192.168.2.51', '192.168.2.68']] //Number of ap and their order
+2018-12-10 19:33:39,536 -  [6c:88:14:f0:dc:14]: [(-1, 0), (1, 21.07)] [Connected on AP 192.168.2.68]
+2018-12-10 19:33:39,537 -  [28:16:ad:fd:c1:bd]: [(1, 21.11), (-1, 0)] [Connected on AP 192.168.2.51]
+2018-12-10 19:33:39,538 -  [00:1f:3b:13:76:49]: [(1, 13.37), (1, 13.37)] [Connected on AP 192.168.2.68]
+2018-12-10 19:33:39,539 - ClientDisconnect : Client 00:1f:3b:13:76:49 (b'\x00\x1f;\x13vI') disconnected from ap 192.168.2.68 for QOS purposes. Client Expect on ap 192.168.2.51
+
+2018-12-10 19:33:39,939 - ClientConnect: Client 00:1f:3b:13:76:49 has been connected on AP 192.168.2.51
+2018-12-10 19:33:44,067 - System environnement [QOS] :
+2018-12-10 19:33:44,069 -  [STA MAC]: [(Mesure type, Mesure in mbps), ...] // Mesure type = -1 = Theoric value, Mesure type = 1 = reel value
+2018-12-10 19:33:44,069 -  [STA MAC]: [['192.168.2.51', '192.168.2.68']] //Number of ap and their order
+2018-12-10 19:33:44,070 -  [6c:88:14:f0:dc:14]: [(-1, 18.238333333333333), (1, 24.71)] [Connected on AP 192.168.2.68]
+2018-12-10 19:33:44,071 -  [28:16:ad:fd:c1:bd]: [(1, 21.11), (-1, 0)] [Connected on AP 192.168.2.51]
+2018-12-10 19:33:44,072 -  [00:1f:3b:13:76:49]: [(1, 13.37), (1, 13.37)] [Connected on AP 192.168.2.51]
+2018-12-10 19:33:44,073 - ClientDisconnect : Client 00:1f:3b:13:76:49 (b'\x00\x1f;\x13vI') disconnected from ap 192.168.2.51 for QOS purposes. Client Expect on ap 192.168.2.68
+
+2018-12-10 19:33:46,336 - ClientConnect: Client 00:1f:3b:13:76:49 has been connected on AP 192.168.2.68
